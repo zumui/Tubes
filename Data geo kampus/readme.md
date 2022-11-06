@@ -1,1 +1,0 @@
-data gedung tpb itb
