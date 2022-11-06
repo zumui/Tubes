@@ -128,6 +128,6 @@ def selectGedung(way):
     for feature in Rute['features']:
         path = feature['geometry']['coordinates']
     finalRute = list(map(switchPosition,path))
-# finalRute
-folium.plugins.AntPath(finalRute).add_to(peta_kampus)
-peta_kampus
+    # finalRute
+    folium.plugins.AntPath(finalRute).add_to(peta_kampus)
+    display(peta_kampus)
